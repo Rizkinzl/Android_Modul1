@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.rzknzl.rizkinuzuli_1202154225_modul1.NextActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="@string/titleUp"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvTempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="@string/tempat"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="Menu"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tvMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:hint="@string/menu_makan1"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="Porsi"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tvPorsi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:hint="@string/porsi_makan1"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvHarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:text="Harga"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/tvHarga2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:hint="@string/harga_makan"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

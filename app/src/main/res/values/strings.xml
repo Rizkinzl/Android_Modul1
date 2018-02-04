@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rizki Nuzuli_1202154225_Modul1</string>
+    <string name="titleUp">Makan Malam</string>
+    <string name="tempat">dimana ya</string>
+    <string name="menu_makan">Masukan Menu Makanan</string>
+    <string name="porsi_makan">Masukan Jumlah Porsi</string>
+    <string name="harga_makan">failed</string>
+    <string name="menu_makan1">select food!</string>
+    <string name="porsi_makan1">fill porsion!</string>
+
+</resources>
